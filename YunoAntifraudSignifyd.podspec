@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'YunoAntifraudSignifyd'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'Signifyd integration to YunoSDK.'
 
   s.description      = <<-DESC
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.y.uno/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Lautaro Pinto' => 'lautaro.pinto@y.uno' }
-  s.source           = { :http => 'https://github.com/yuno-payments/yuno-antifraud-signifyd-ios/releases/download/' + s.version.to_s + '/YunoAntifraudSignifyd.zip' }
+  s.source           = { :http => 'https://github.com/yuno-payments/yuno-antifraud-signifyd-ios/releases/download/' + s.version.to_s + '/YunoAntifraudSignifydFrameworks.zip' }
 
   s.ios.deployment_target = '13.0'
   s.swift_version         = '5.4'
