@@ -19,11 +19,9 @@ Pod::Spec.new do |s|
 
   s.requires_arc          = true
   
-  # s.vendored_frameworks = 'YunoAntifraudClearsale.xcframework' , 'CSBehavior.xcframework'
   s.vendored_frameworks = 'TMXProfiling.xcframework', 'TMXProfilingConnections.xcframework', 'YunoAntifraudSignifyd.xcframework'
       
   s.frameworks = 'UIKit'
-  s.frameworks = 'Combine'
-  s.xcconfig = { 'SWIFT_INCLUDE_PATHS' => ['${PODS_XCFRAMEWORKS_BUILD_DIR}/YunoAntifraudClearsale'] }
+  s.xcconfig = { 'SWIFT_INCLUDE_PATHS' => ['${PODS_XCFRAMEWORKS_BUILD_DIR}/YunoAntifraudSignifyd'] }
   s.pod_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
 end
